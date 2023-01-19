@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    
+}
+
+.logo{
+    height: 30px;
+   
+}
+
+.navbar{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    background: rgba(0,0,0,.4);
+   
+}
+
+
+.btn{
+    background-color: red;
+    padding: 5px;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+   
+}
+
+.banner__items{
+    padding-top: 20vh;
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:8200;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.banner__shows{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    color: white;
+    
+    
+
+}
+
+
+section{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/1ecf18b2-adad-4684-bd9a-acab7f2a875f/07c49d5e-eb7c-498f-95ae-ca3660c43656/GH-en-20230116-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: cover;
+    height: 100vh;
+ 
+ 
+}
+
+
+
+
+.input{
+    display: flex;
+    width: 65vh;
+    padding: 19px;
+    justify-content: center;
+    border: 0;  
+    outline: none;
+    
+
+}
+
+.input__field{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+   
+    
+}
+
+.get__started{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    border: 0;
+}
+
+h1{
+    display: flex;
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    font-weight: normal;
+   
+
+}
+
+.top{
+    background-image: linear-gradient(
+        0deg
+        ,rgba(0,0,0,.8) 0,transparent 300%,rgba(0,0,0,.8));
+    height: 100vh;
+    
+}
